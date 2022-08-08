@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image-bg{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container, header, .row, body{
+    background-color: #FEF3F6;
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.breadcrumb{
+    margin-top: 30px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#main p{
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+}

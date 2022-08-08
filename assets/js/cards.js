@@ -18,7 +18,7 @@ fetch('https://artistas-interior-sp-api.herokuapp.com/musicistas')
                 
                 <h2 class="fs-5 mt-3">${artista.name}</h2>
                 <p>${artista.about}</p>
-                <p><a class="btn btn-outline-info" href="../artista.html" role="button">Saiba mais</a></p>
+                <p><a class="btn btn-outline-info" href="./artista.html" role="button">Saiba mais</a></p>
             `
 
             append(main, div)
